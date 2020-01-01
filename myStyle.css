@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.groupEvents{
+    justify-content: center; /* center items horizontally, in this case */
+    width: 50%;
+    min-height: 100px;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+}
+.clickBox{
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+    margin: auto 10px;
+    width: 10%;
+    min-height: 80px;
+    background-color: green;
+}
+.hoverBox{
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+    margin: auto 10px;
+    width: 10%;
+    min-height: 80px;
+    background-color: darkcyan;
+}
+.clickKey{
+    padding:5px;
+    margin: auto 10px;
+    width: 10%;
+    min-height: 80px;
+    background-color: orange;
+}
+.mousePosition{
+    text-align: center;
+    padding: 5px;
+    margin: auto 10px;
+    width: 10%;
+    min-height: 80px;
+    background-color: purple;
+}
+.tooltip{
+    display: inline-block;
+    position: fixed;
+    background-color: #f1f1f1;
+    
+}
+.multi{
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+    margin: auto 10px;
+    width: 10%;
+    min-height: 80px;
+    background-color: brown;
+}
