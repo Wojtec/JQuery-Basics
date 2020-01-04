@@ -2,9 +2,28 @@
     margin: 0px;
     padding: 0px;
 }
-.groupEvents{
-    justify-content: center; /* center items horizontally, in this case */
+.box{
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
     width: 50%;
+    min-height: 80px;
+    background-color: rgb(166, 226, 25);
+}
+.box2{
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    width: 50%;
+    min-height: 80px;
+    background-color: rgb(166, 226, 25);
+}
+.hidden{
+display: none;
+}
+.groupEvents, .boxes{
+    width: 80%;
     min-height: 100px;
     display: -webkit-flex; /* Safari */
     display: flex;
