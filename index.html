@@ -12,31 +12,32 @@
 <body>
     <!--Hello world in jquery-->
     <h3>jQuery hello World</h3>
-    <div class="hello"></div>
+    <div id="hello" class="hello"></div>
     <!--Events in jQuery-->
     <h3>Event's</h3>
     <div class="groupEvents">
-    <div class="clickBox">Click Me</div>
-    <div class="hoverBox">Hover off</div>
-    <div class="keyPress">
+    <div id="clickBox" class="clickBox ele ">Click Me</div>
+    <div id="hoverBox" class="hoverBox ele ">Hover off</div>
+    <div class="keyPress ele ">
         <input id="text" type="text" placeholder="Write text">
-        <div class="key">
+        <div id="key" class="key">
         </div>
         <button id="clear">clear</button>
     </div>
-    <div class="mousePosition">Position
-        <div class="tooltip"></div>
+    <div id="mouse-pos" class="mousePosition ele ">Position
+        <div id="tooltip" class="tooltip"></div>
+        <div id="tooljs" class="tooljs"></div>
     </div>
-    <div class="multi">MultiEvent
-        <button class="btn-1">btn-1</button>
-        <button class="btn-2">btn-2</button>
+    <div class="multi ele ">MultiEvent
+        <button class="btn-1 btn ">btn-1</button>
+        <button class="btn-2 btn">btn-2</button>
     </div>
     </div>
       <!--Functions + Selectors in jQuery-->
       <h3>Functions + Selectors</h3>
-      <div class="groupElements">
+      <div id="groupElements" class="groupElements">
           <div class="boxes">
-            <div class="box2 box-select">
+            <div id="box-select" class="box2 box-select">
                 <div><input id="text2" type="text" placeholder="Write text and press enter">
                 </div>
                 <label>Select element</label>
@@ -48,25 +49,25 @@
                 </select>
                <div><a id="a-ele">click 'a' element</a></div> 
             </div>
-            <div class="infoChild box2"> <h3>Collection Of Children's</h3></div>
+            <div id="infoChild" class="infoChild box2"><h3 id="title">Collection Of Children's</h3></div>
             <div id="box" class="box2">Click for get item by id</div>
-            <div class="hidden-ele box2 hidden">Hidden element</div>
+            <div id="hidden" class="hidden-ele box2 hidden">Hidden element</div>
             
         </div>
         
-          <button class="hide">Hide</button>
-          <button class="show">Show</button>
-          <button class="hide-mol">Hide Molten</button>
-          <button class="show-mol">Show Molten</button>
-          <button class="iterate-ele">Iterate-ele</button>
-          <button class="get-parent">Get-parent</button>
-          <button class="hidden-element">Show hidden element</button>
-          <button class="remove-element">Remove elements</button>
+          <button id="hide" class="hide">Hide</button>
+          <button id="show" class="show">Show</button>
+          <button id="hide-mol"class="hide-mol">Hide Molten</button>
+          <button id="show-mol" class="show-mol">Show Molten</button>
+          <button id="iterate-ele" class="iterate-ele">Iterate-ele</button>
+          <button id="get-parent" class="get-parent">Get-parent</button>
+          <button id="hidden-element"class="hidden-element">Show hidden element</button>
+          <button id="remove-element"class="remove-element">Remove elements</button>
 
       </div>
 <script src="jquery.js"></script>
 <script src="hello.js"></script>
-<script src="events.js"></script>
+<script src="native.js"></script>
 
 </body>
 

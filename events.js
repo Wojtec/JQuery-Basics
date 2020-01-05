@@ -52,6 +52,22 @@ if(e.currentTarget.className == "btn-2"){
 
 
 //Functions
+// hide
+$('.hide').click(function(){
+    $('#box').hide();
+})
+//show
+$('.show').click(function(){
+    $('#box').show();
+})
+//hide molten
+$('.hide-mol').click(function(){
+    $('#box').hide('slow');
+})
+//show molten
+$('.show-mol').click(function(){
+    $('#box').show('slow');
+})
 //function for change color
 function randomColor() {
     const deg = Math.random() * 360;
@@ -74,7 +90,7 @@ $('.groupElements').children().each(function(index,obj){
     $('.infoChild').append('<p>'+obj.className+'</p>');
 })
 // get all elements by class name
-$('.box').css("border",'solid','1px','black');
+$('.box2').css("border",'solid','1px','black');
 
 // get item by id
 $('#box').click(function(){
