@@ -1,4 +1,4 @@
-$(document).ready(function(){
+window.onload = function(){
     //CLICK
     const clickBox = document.getElementById("clickBox");
     clickBox.addEventListener('click',function(){
@@ -122,21 +122,21 @@ $(document).ready(function(){
         const optSele = selector.options[selector.selectedIndex].value;
         alert(optSele);
     })
-    // //Change the href attribute of the first <a> element (Create an <a> element to test this case)
+    //Change the href attribute of the first <a> element (Create an <a> element to test this case)
     const aEle = document.getElementById('a-ele');
     aEle.setAttribute('href','https://www.w3schools.com');
-    // //Create a new <p> element with text inside the dom of your page
+    //Create a new <p> element with text inside the dom of your page
     const pParent = document.getElementById('box-select');
     let newP = document.createElement('p');
     let textP = document.createTextNode("New 'p' element");
     newP.appendChild(textP);
     pParent.appendChild(newP);
-    // //Show an alert with the value of the first <input> of the page (Create an <input> element to test this case)
+    //Show an alert with the value of the first <input> of the page (Create an <input> element to test this case)
     const invalu = document.getElementById('text2');
     invalu.addEventListener('change',function(){
         alert(this.value);
     })
-    // //Remove all items from a specific selector
+    //Remove all items from a specific selector
     const remBtn = document.getElementById('remove-element');
     const infchild = document.getElementById('infoChild');
     let test =  infchild.querySelectorAll("p");
@@ -145,9 +145,9 @@ $(document).ready(function(){
             infchild.removeChild(test[i]);
         }
     })
-    // //Animate an item after 2 seconds from the initial page load
+    //Animate an item after 2 seconds from the initial page load
     const anim = document.getElementById('hello');
     setTimeout(function(){
         anim.classList.add('animate');
     },2000);
-     })
+     }

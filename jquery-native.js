@@ -11,12 +11,10 @@ $('.hoverBox').hover(function(){
 },function(){
     $(this).css("background-color","darkcyan");
     $(this).text("Hover off");
-
 })
 // KEYPRESS
 $('#text').keypress(function(e){
     $('.key').text(e.key);
-
 })
 // Clear button
 $('#clear').click(function(){
